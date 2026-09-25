@@ -4,6 +4,9 @@ Armbian build userpatches for the kplex kernel. `./build-base-image.sh` produces
 image**: stock Armbian ROCK 2F userspace, kernel built from `linux-kplex`. It is board-agnostic;
 `rk35xx-kplex-armbian`'s `build-image.sh` turns it into a per-box image.
 
+Checked out as `<armbian-build>/userpatches`, it builds in that tree and first moves it to the
+pinned commit; anywhere else it builds in `../armbian-build` with a copy of this checkout.
+
 | Input         | Pinned in                                                        |
 | ------------- | ---------------------------------------------------------------- |
 | Armbian build | `build-base-image.sh` — `ARMBIAN_BUILD_SHA`                      |
