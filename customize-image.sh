@@ -245,5 +245,6 @@ InstallAdvancedDesktop()
 Main "$@"
 
 set -e
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 xargs -a /tmp/overlay/kino/packages.txt apt-get install -y
