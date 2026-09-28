@@ -14,3 +14,4 @@ libxi6 libxmp4 libxrandr2 libxrender1 libxss1 libzstd1 zlib1g
 libgl1-mesa-dri libegl-mesa0 libglx-mesa0 mesa-libgallium xwayland xkb-data gdb
 pipewire pipewire-pulse wireplumber
 alsa-utils
+libdecor-0-plugin-1-gtk
