@@ -13,3 +13,4 @@ libxcb-shm0 libxcb-xfixes0 libxcb-xinput0 libxcursor1 libxdmcp6 libxext6 libxfix
 libxi6 libxmp4 libxrandr2 libxrender1 libxss1 libzstd1 zlib1g
 libgl1-mesa-dri libegl-mesa0 libglx-mesa0 mesa-libgallium xwayland xkb-data gdb
 pipewire pipewire-pulse wireplumber
+alsa-utils
