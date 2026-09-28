@@ -248,3 +248,5 @@ set -e
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 xargs -a /tmp/overlay/kino/packages.txt apt-get install -y
+# vim's own alternative outranks vim.tiny already; stated so vi cannot end up anything else
+update-alternatives --set vi /usr/bin/vim.basic
