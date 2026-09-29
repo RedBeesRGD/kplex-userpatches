@@ -16,4 +16,4 @@ pipewire pipewire-pulse wireplumber
 alsa-utils
 libdecor-0-plugin-1-gtk
 git build-essential pkgconf meson ninja-build vim
-libgl-dev libglu1-mesa-dev libegl-dev libgles-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev p7zip-full
+libgl-dev libglu1-mesa-dev libegl-dev libgles-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev p7zip-full foot
